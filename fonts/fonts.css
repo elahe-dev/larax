@@ -1,0 +1,39 @@
+
+@font-face {
+  font-family: 'Brother';
+  src: url('Brother-1816-Medium.eot');
+  src: url('Brother-1816-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Brother-1816-Medium.woff2') format('woff2'),
+      url('Brother-1816-Medium.woff') format('woff'),
+      url('Brother-1816-Medium.ttf') format('truetype'),
+      url('Brother-1816-Medium.svg#Brother-1816-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brother-bold';
+  src: url('Brother-1816-Bold.eot');
+  src: url('Brother-1816-Bold.eot?#iefix') format('embedded-opentype'),
+      url('Brother-1816-Bold.woff2') format('woff2'),
+      url('Brother-1816-Bold.woff') format('woff'),
+      url('Brother-1816-Bold.ttf') format('truetype'),
+      url('Brother-1816-Bold.svg#Brother-1816-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Brother-Regular";
+  src: url("Brother-1816-Regular.eot"); /* IE9 Compat Modes */
+  src: url("Brother-1816-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("Brother-1816-Regular.otf") format("opentype"), /* Open Type Font */
+    url("Brother-1816-Regular.svg") format("svg"), /* Legacy iOS */
+    url("Brother-1816-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("Brother-1816-Regular.woff") format("woff"), /* Modern Browsers */
+    url("Brother-1816-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

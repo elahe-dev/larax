@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138.115" height="152.115" viewBox="0 0 138.115 152.115">
+    <defs>
+        <radialGradient id="2w0g2rg8sb" cx=".385" cy=".24" r=".607">
+            <stop offset="0" stop-color="#ffc5bb"/>
+            <stop offset="1" stop-color="#fb6b72"/>
+        </radialGradient>
+        <filter id="h7dtonvnta" width="138.115" height="152.115" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="37" dy="51"/>
+            <feGaussianBlur result="blur" stdDeviation="12"/>
+            <feFlood flood-color="#020106" flood-opacity=".169"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g filter="url(#h7dtonvnta)">
+        <circle cx="32.557" cy="32.557" r="32.557" fill="url(#2w0g2rg8sb)"/>
+    </g>
+</svg>

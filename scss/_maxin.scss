@@ -1,0 +1,56 @@
+$nav-bg:#292d4f;
+$btn-blue:#1a96fc;
+$white:#fff;
+$muted:rgba(246, 246, 248, 0.3);
+$txt-clr:#4f557b;
+$p-clr:rgba(79, 85, 123, 0.8);
+$light-gray:#f6f6f8;
+$pink:#ff597d;
+$bread:rgba(79, 85, 123, 0.5);
+
+$font:"Brother";
+$font-b:"Brother-bold";
+$font-R: "Brother-Regular";
+
+@mixin padding($top: null, $right: null, $bottom: null, $left: null) {
+    padding-top: $top;
+    padding-right: $right;
+    padding-bottom: $bottom;
+    padding-left: $left;
+  }
+
+  @mixin for-size($size) {
+    @if $size == lg {
+      @media (max-width: 992px) {
+        @content;
+      }
+    }
+    @else if $size == nomob {
+      @media (min-width: 578px) {
+        @content;
+      }
+    }
+     @else if $size == mid {
+      @media (min-width: 577px) and (max-width: 992px) {
+        @content;
+      }
+    } @else if $size == sm {
+      @media (max-width: 577px) {
+        @content;
+      }
+    }
+  }
+  @mixin carouse-li($btn, $li-color: #fff) {
+    bottom: $btn;
+    li {
+      background-color: $li-color;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+ 
